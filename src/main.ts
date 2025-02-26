@@ -66,7 +66,7 @@ ipcMain.handle('organize-desktop', async (_event, excludedPaths: string[]) => {
   try {
     const desktopPath = path.join(os.homedir(), 'Desktop');
     const documentsPath = path.join(os.homedir(), 'Documents');
-    const pastDesktopPath = path.join(documentsPath, '過去のデスクトップ');
+    const pastDesktopPath = path.join(documentsPath, 'Past Desktop Files');
     
     console.log('Excluded paths:', excludedPaths);
 

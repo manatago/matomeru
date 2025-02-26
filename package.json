@@ -33,7 +33,7 @@
   },
   "build": {
     "appId": "com.example.desktop-matome",
-    "productName": "デスクトップまとめる",
+    "productName": "Desktop Matome",
     "mac": {
       "category": "public.app-category.utilities",
       "target": ["dmg", "zip"],
